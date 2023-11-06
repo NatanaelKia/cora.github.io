@@ -12,10 +12,10 @@
 }
 
 :root {
-    --bg-color: #1f242d;
+    --bg-color: #000000;
     --second-bg-color: #323946;
-    --text-color: #13bfe1b0;
-    --main-color: rgba(200, 255, 0, 0.756);
+    --text-color: hsla(51, 84%, 48%, 0.69);
+    --main-color: rgba(92, 249, 199, 0.756);
 }
 
 html {
@@ -31,6 +31,8 @@ body {
 section {
     min-width: 100vh;
     padding: 10rem 9% 2rem;
+
+    
 }
 
 .header {
@@ -59,18 +61,16 @@ section {
 
 .clock {
     width: 150px;
-
     border-radius: 8px;
     text-align: center;
     margin: 20px;
     padding: 10px;
-    box-shadow: 12px 6px 10px rgb(104, 0, 249);
+    box-shadow: 12px 6px 10px rgb(46, 0, 249)
 }
 
 .time {
-
   font-size: 24px;
-  color: rgb(4, 171, 255);
+  color: rgb(233, 167, 0)
 }
 
 
@@ -99,8 +99,12 @@ section {
 }
 
 .home-img img {
-    width: 35vw;
+    width: 45rem;
     animation: floatImage 4s ease-in-out infinite;
+    height: 45rem;
+    border-radius: 450%;
+    margin-top: 10rem;
+    margin-left: 5rem;
 }
 
 @keyframes floatImage {
@@ -187,7 +191,9 @@ span {
 }
 
 .about-img img {
-    width: 35vw;
+    width: 40rem;
+    height: 40rem;
+    border-radius: 50%;
 }
 
 .heading {
